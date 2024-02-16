@@ -1,14 +1,29 @@
-# Compiled class file
-*.class
+#general
+bin/
+log/
+target/
+tmp/
 
-# Log file
+# eclipse
+.metadata
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# intellij idea
+.idea/
+*.iml
+
+#VM crashes
+hs_err_pid*
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+#editors
+*.tmp
+*.bak
+*.swp
 
 # Package Files #
 *.jar
@@ -19,6 +34,14 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+#mac_os
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
